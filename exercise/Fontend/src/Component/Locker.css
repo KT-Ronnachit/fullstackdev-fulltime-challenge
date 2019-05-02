@@ -1,0 +1,90 @@
+
+
+.center-locker{
+  display: flex;
+  justify-content: center;
+  padding-top: 4  0px;
+}
+
+#loceker {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 350px;
+    align-items: center;
+    
+  }
+/*   
+  #loceker tr:nth-child(even){
+    background-color: #ddd;
+    border-radius: 10px;
+  } */
+  
+  #loceker td:hover {
+    background-color: #ddd;
+    border-radius: 10px;
+  } 
+  #loceker td {
+    background-color: #ddd;
+    /* border-radius: 10px; */
+  } 
+
+  
+  #loceker th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #434343d1;
+    color: white;
+    text-align: center;
+    /* border-radius: 10px; */
+  }
+
+.lockernumber{
+    margin-left: 30px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#loceker_story {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      display: table;
+    /* border-collapse: separate; */
+    border-spacing: 2px;
+    
+}
+
+#loceker_story tr:nth-child(even){
+  background-color: #ddd;
+
+}
+
+#loceker_story td:hover {
+  background-color: #ddd;
+ 
+} 
+
+#loceker_story th {
+  padding: .75rem;
+  vertical-align: top;
+  background: #434343d1;
+    color: #ffffff;
+}
+ #loceker_story  td{
+  padding: .75rem;
+  color: black;
+  vertical-align: top;
+  background-color: #ddd;
+  border-top: 1px solid #ffffff;
+}
+
+.logout-button{
+  float: 'right'; 
+  margin-right: 20px;
+  margin-top:-65px
+}
+.bg-light {
+  background: linear-gradient(  45deg, #a46bfe 30%, #ff8e53 90%) !important;
+}

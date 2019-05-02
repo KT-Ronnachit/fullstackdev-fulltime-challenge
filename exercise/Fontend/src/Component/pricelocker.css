@@ -1,0 +1,24 @@
+#price {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 350px;
+    padding-bottom: 20px;
+    align-items: center
+  }
+   #price td {
+    text-align: center
+   
+  }
+  #price td{
+    border: 1px solid
+  } 
+  
+  
+  
+  #price th {
+    padding-top: 12px ;
+    padding-bottom: 12px ;
+    background-color: rgb(118, 131, 243) ;
+    color: white ;
+    border-radius: 10px;
+  } 
